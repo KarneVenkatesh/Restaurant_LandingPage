@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px ;
+}
+#container{
+    width: 100vw; 
+    height: 150vh;
+    position: relative;
+    background-image: linear-gradient(60deg, #e62c85, #ebd836);
+    box-shadow: 2px 2px 2px rgb(161, 158, 158);
+}
+#navigationbar{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    letter-spacing: 3px;
+    font-size: 20px;   
+}
+.icons{
+    position: absolute;
+    right: 22px;
+    font-size: medium;
+}
+#img1{
+    width: 100vw;
+    height: 80%;
+}
+label>img{
+    width: 18px;
+    height: 18px;
+}
+#about{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(214, 78, 78, 0.694);
+    color: white;
+    z-index: 3;
+    position: relative;
+    left: 80px;
+    bottom: 490px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+#container2{
+    width: 100vw;
+    height: 130vh;
+    background-image: linear-gradient(135deg, #e62c85, #ebd836);
+    box-shadow: -2px -2px 2px rgb(161, 158, 158);
+}
+#container2 h1{
+    font-size: 40px;
+    color: white;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+  width: 220px;
+  height: 350px;
+  background: white;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: column;
+  border-radius: 0px 40px 0px 40px;
+}
+.img-holder{
+  min-width: 80px;
+  height: 60%;
+  overflow: hidden;
+}
+#img{
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  margin-left:20px ;
+  margin-top: 30px;
+  border-radius: 0px 40px 0px 0px;
+}
+.title{
+  margin-left: 55px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.content{
+  text-align: center;
+  text-align: justify;
+  text-indent: 23px;
+}
+button{
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  bottom: -60px;
+  left: 45%;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+#footer{
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.logo{
+  padding-left: 30px;
+  width: 30px;
+  transition: transform 0.2s;
+}
+.logo:hover{
+  transform: scale(1.5);
+}
